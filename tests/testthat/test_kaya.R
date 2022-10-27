@@ -1,4 +1,5 @@
 library("Assignment")
+library("checkmate")
 
 # Test the function returns the correct results
 test_that("kaya_identity_equation returns the correct results",{
