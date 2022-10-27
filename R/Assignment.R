@@ -1,4 +1,4 @@
-#' Kaya Identity Package
+#' Kaya Identity Equation Package
 #'
 #' contains one function kaya Identity which expresses yearly CO2 emissions
 #'
