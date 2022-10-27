@@ -1,17 +1,17 @@
-#' create Kaya equation as a function
+#' create kaya_identity_equation as a function
 #'
-#' more detailed description.
+#' @import checkmate
 #'
 #' @param pop Numeric
 #' @param gdp Numeric
 #' @param enInt Numeric
-#' @param carnInt Numeric
+#' @param carbInt Numeric
 #' @param output_type String
 #'
 #' @return Numeric
 #'
 #' @examples
-#' kaya_equation.germany <- kaya_equation(82.4, 44, 5, 0.05)
+#' kaya_identity_equation.germany <- kaya_identity_equation(82.4, 44, 5, 0.05)
 #'
 #' @export
 #'

@@ -8,8 +8,11 @@ Description:  Contains one function kaya Identity which expresses yearly CO2 emi
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Imports: checkmate
 Suggests: 
+    devtools,
+    roxygen2,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 RoxygenNote: 7.2.1
-https://en.wikipedia.org/wiki/Kaya_identity 
+URL: https://en.wikipedia.org/wiki/Kaya_identity 

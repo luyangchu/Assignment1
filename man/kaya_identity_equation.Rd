@@ -2,7 +2,7 @@
 % Please edit documentation in R/kaya_identity_equation.R
 \name{kaya_identity_equation}
 \alias{kaya_identity_equation}
-\title{create Kaya equation as a function}
+\title{create kaya_identity_equation as a function}
 \usage{
 kaya_identity_equation(pop, gdp, enInt, carbInt, output_type = "CO2")
 }
@@ -13,17 +13,17 @@ kaya_identity_equation(pop, gdp, enInt, carbInt, output_type = "CO2")
 
 \item{enInt}{Numeric}
 
-\item{output_type}{String}
+\item{carbInt}{Numeric}
 
-\item{carnInt}{Numeric}
+\item{output_type}{String}
 }
 \value{
 Numeric
 }
 \description{
-more detailed description.
+create kaya_identity_equation as a function
 }
 \examples{
-kaya_equation.germany <- kaya_equation(82.4, 44, 5, 0.05)
+kaya_identity_equation.germany <- kaya_identity_equation(82.4, 44, 5, 0.05)
 
 }
