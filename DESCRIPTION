@@ -4,7 +4,7 @@ Title: Kaya Identity Equation Package
 Version: 0.1.0
 Author: Luyang Chu
 Maintainer: Luyang Chu <luyang.chu@gmail.com>
-Description: contains one function kaya Identity which expresses yearly CO2 emissions 
+Description:  Contains one function kaya Identity which expresses yearly CO2 emissions. The Kaya identity is a mathematical identity stating that the total emission level of the greenhouse gas carbon dioxide can be expressed as the product of four factors: human population, GDP per capita, energy intensity (per unit of GDP), and carbon intensity (emissions per unit of energy consumed). 
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
@@ -12,3 +12,4 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 RoxygenNote: 7.2.1
+https://en.wikipedia.org/wiki/Kaya_identity 

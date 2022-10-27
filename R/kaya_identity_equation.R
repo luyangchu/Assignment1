@@ -1,5 +1,3 @@
-library(checkmate)
-library(roxygen2)
 #' create Kaya equation as a function
 #'
 #' more detailed description.
@@ -17,7 +15,7 @@ library(roxygen2)
 #'
 #' @export
 #'
-kaya_identity_equation <- function(pop,gdp,enInt,carbInt,output_type = "CO2" ){
+kaya_identity_equation <- function(pop,gdp,enInt,carbInt,output_type = "CO2"){
   # all the variables are non negative
   # add checkmate to check input
   checkmate::assertNumber(pop, na.ok = FALSE, lower = 0)
