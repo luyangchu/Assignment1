@@ -1,12 +1,11 @@
 Package: Assignment
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Kaya Identity Equation Package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Luyang Chu
+Maintainer: Luyang Chu <luyang.chu@gmail.com>
+Description: contains one function kaya Identity which expresses yearly CO2 emissions 
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Suggests: 
