@@ -19,7 +19,7 @@ test_that("kaya equation with negative inputs", {
 
 })
 
-# Test the function two output types.
+# Test the function  with two output types.
 test_that("kaya equation returns the correct output tpe",{
   expect_equal(kaya_identity_equation(20,30,6,0.02,"CO2"), 72)
   expect_equal(kaya_identity_equation(367,50,7,1,"C"), 35000)

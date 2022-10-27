@@ -27,7 +27,7 @@ kaya_identity_equation <- function(pop,gdp,enInt,carbInt,output_type = "CO2"){
   yearly_CO2 <-  pop * gdp * enInt * carbInt
 
   # two output types, CO2 and C, default CO2
-  # 3.67 tonnes of CO2 equals 1 tonne of C
+  # connection:3.67 tonnes of CO2 equals 1 tonne of C
   if (output_type == "C") {
     yearly_C <- yearly_CO2 / 3.67
     return(yearly_C)
