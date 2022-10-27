@@ -17,13 +17,14 @@ library(roxygen2)
 #'
 #' @export
 #'
-kaya_identity_equation <- function(pop,gdp,enInt,carbInt,output_type = "CO2"){
+kaya_identity_equation <- function(pop,gdp,enInt,carbInt,output_type = "CO2" ){
   # all the variables are non negative
   # add checkmate to check input
   checkmate::assertNumber(pop, na.ok = FALSE, lower = 0)
   checkmate::assertNumber(gdp, na.ok = FALSE, lower = 0)
   checkmate::assertNumber(enInt, na.ok = FALSE, lower = 0)
   checkmate::assertNumber(carbInt, na.ok = FALSE, lower = 0)
+
   yearly_CO2 <-  pop * gdp * enInt * carbInt
 
   # two output types, CO2 and C, default CO2
